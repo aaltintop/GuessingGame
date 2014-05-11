@@ -1,15 +1,15 @@
 import java.util.Random;
 
-/*main de sadece randomValueControl metotunu kullancagýz.
-* bundan return olan deger rakamlarý farklý 4basamaklý sayýdýr.
-* bu metot RandomValueProduce metotunu içinde bulunduruyor. RandomValueProduce metotu ise random deger uretir.*/
+/*main de sadece randomValueControl metotunu kullancagï¿½z.
+* bundan return olan deger rakamlarï¿½ farklï¿½ 4basamaklï¿½ sayï¿½dï¿½r.
+* bu metot RandomValueProduce metotunu iï¿½inde bulunduruyor. RandomValueProduce metotu ise random deger uretir.*/
 public class RandomValue {
-private int value=0;//abd
+private int value=0;
 public RandomValue()
 {
-    //selam
+
 }
-public int randomValueControl()//bu metotun amacý sayý içinde ayný olan rakam varsa o sayýyý degiþtirip tekrar random deger atar.
+public int randomValueControl()//bu metotun amacï¿½ sayï¿½ iï¿½inde aynï¿½ olan rakam varsa o sayï¿½yï¿½ degiï¿½tirip tekrar random deger atar.
 {
 boolean son=true;
 RandomValueProduce();
@@ -37,7 +37,7 @@ if(son==false)
 break;
 
 }
-//System.err.println(value);//bu satýrý comment den cýkarýrsak consol ekranýnda random sayýnýn kaç oldugu yazar.
+//System.err.println(value);//bu satï¿½rï¿½ comment den cï¿½karï¿½rsak consol ekranï¿½nda random sayï¿½nï¿½n kaï¿½ oldugu yazar.
 }while(son==false);
 
 return value;
